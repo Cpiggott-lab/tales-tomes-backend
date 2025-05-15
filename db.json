@@ -1,5 +1,5 @@
 {
-  "projects": [
+  "my-books": [
     {
       "id": 1,
       "title": "Module 2 Project",
@@ -13,7 +13,7 @@
       "userId": 1
     }
   ],
-  "tasks": [
+  "wishlist": [
     {
       "id": 1,
       "projectId": 1,
@@ -28,6 +28,31 @@
       "id": 3,
       "projectId": 2,
       "description": "Create a form with 5 input fields"
+    }
+  ],
+  "library": [
+    {
+      "id": 2,
+      "projectId": 1,
+      "description": "Install React Router and setup routes"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "description": "Use Vite to create a basic React app"
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "description": "Install React Router and setup routes"
+    }
+  ],
+  "users": [
+    {
+      "userId": 92660,
+      "name": "Christopher piggott"
     }
   ]
 }
